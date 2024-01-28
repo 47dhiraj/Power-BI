@@ -1,0 +1,11 @@
+
+The COUNTROWS function in DAX is used to count the number of rows in a table or table expression.
+
+
+SYNTAX: COUNTROWS(<table>)
+
+
+Example1:
+
+    TotalOrders = COUNTROWS(Orders)
+

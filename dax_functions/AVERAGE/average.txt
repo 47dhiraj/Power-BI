@@ -1,0 +1,11 @@
+
+# AVERAGE calculate the average of a Column or expression.
+
+
+SYNTAX: AVERAGE(table[column])
+
+
+EXAMPLE 1:
+
+    Avg Order Quantity = AVERAGE(Orders[Quantity])
+

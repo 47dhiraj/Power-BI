@@ -1,0 +1,18 @@
+
+# To remove the columns:
+
+
+    1) First select the column (single or multiple columns):
+
+        ==> To select single column: just click on the column name header
+
+        ==> To select multiple columns:
+            * Click on that column header from where u want to start selecting.
+            * Press and hold "Shift" key till u click on that column to which u want to stop selecting.
+
+
+    2) Now, Be inside 'Home' tab in the Ribbon.
+        
+        ==> Click on 'Remove columns' option
+
+    

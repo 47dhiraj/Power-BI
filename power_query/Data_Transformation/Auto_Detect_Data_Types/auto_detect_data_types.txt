@@ -1,0 +1,21 @@
+
+# How to automatically detect data types ??
+
+
+    1) Select first column by clicking on column header.
+
+    2) Press and hold 'Shift' key:
+
+        --> Now, click on last column.
+
+        U can see, all data being selected.
+
+    3) Now, Navigate to "Transform" tab in Ribbon.
+
+    4) U can see "Detect Data Type" icon & click on that.
+
+    
+    Now, Power BI automatically detects the data type of unidentified column.
+
+    
+Wallah !!

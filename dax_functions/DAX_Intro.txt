@@ -1,0 +1,17 @@
+
+# DAX(Data Analysis Expressions):
+
+==> DAX is a formula language used in Power BI to create custom calculations and expressions for data analysis and modeling. 
+
+==> DAX functions are the building blocks of these calculations and can be used to perform a wide range of operations on your data. 
+
+
+# How to write a DAX function ?
+
+        0. At first, be on the Report view.
+        1. Right click on "Table" in the Data section.
+        2. And, Select "New Measure" option.
+        3. And then, write the DAX function & also providing name to measure.
+        4. Now, Hit Enter OR click on Tick Icon.
+        5. Finally, Do Tick/check  this new measure created under the Table in Data section.
+

@@ -1,0 +1,49 @@
+
+# Before removing Duplicate entry/rows/records.
+
+
+# First u should check, if duplicate rows actually exists ??
+
+
+# How to actually check if there is duplicate entry/rows/records or not ??
+
+    1) First, from the data, identify which column is functioning like Primary Key is SQl.
+
+        (i.e identify that column whose value can never be repeated)
+
+
+    2) Now, select that column by clicking on column header.
+
+    3) Navigate to 'Home' tab and click on "Group By" icon.
+
+    4) A Group By 'Dialog' box will appear.
+
+    5) U column already see the column which u have selected.
+
+        In the 'New Column name', give the name, suppose "Count".
+
+        In the "Operation" dropdown, choose the option "Count Rows".
+
+        Click on "OK" button.
+    
+    6) U can see a sepereate new "Count" column being created.
+
+    7) Now, click on "Count" column header dropdown icon.
+
+        Here, u can clearly see the values:
+            If only '1' numeric value is ticked, it means No Duplicate.
+            Else if other numeric value is also ticked, it means there is Duplicate.
+
+    
+    8) After u click on column header dropdown:
+
+        Click "Number Filters" and choose "Does Note Equals" from dropdown. 
+
+        A "Filter Rows" dialog box will appear:
+            --> on the right side of 'does not equal', write value '1'
+            --> Click  on "OK" button.
+        
+            Now, u can clearly, see the duplicate values and their repeatition times.
+
+
+Wallah !!

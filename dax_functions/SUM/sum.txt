@@ -1,0 +1,19 @@
+
+The SUM() function in DAX is used to add up the values in a column.
+
+
+
+SYNTAX: SUM(table[column])
+
+
+Example 1:
+
+    TotalSales = SUM('Sales'[SalesAmount])
+
+
+
+
+Example 2:
+
+    Total Profit = (SUM(Orders[Selling Price]) - SUM(Orders[Product Cost])) * SUM(Orders[Quantity])  
+    

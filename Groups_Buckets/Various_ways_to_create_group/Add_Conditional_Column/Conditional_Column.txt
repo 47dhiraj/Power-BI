@@ -1,0 +1,28 @@
+
+# U can also create groups adding new "Conditional Column"
+
+
+    1) So, First, u have to be inside Power Query Editor (i.e Transform Data)
+
+    2) A "Add Conditional Column" dialog box will appear.
+
+    3) Write "New Column Name"  (eg: 'Age Group')
+
+    4) Select the already existing "Column Name", in which u want to apply condition (eg: 'Age')
+
+    5) Now, select "Operator" to 'is less than or equal to'.
+
+
+    6) In the "Value", write upper value of the range (eg: 24)
+            
+            suppose range is (18-24)
+
+
+    7) In the "Output", write range (eg: 18-24)
+
+    8) Click on "Add Clause" button, to add more conditions, upto your requirement.
+
+    9) In the "Else", write final else condition (eg: 55 and above)
+
+
+Wallah!!

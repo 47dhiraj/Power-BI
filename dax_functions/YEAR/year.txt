@@ -1,0 +1,10 @@
+
+Extracts the year from a Date or DateTime value.
+
+
+Syntax: YEAR(date_column)
+
+
+Example 1:
+
+    Order Year = YEAR(Customers[Order Date])

@@ -1,0 +1,43 @@
+
+# How to split a column to two columns ??
+
+
+    1) At first, simply select the column that you want to split.
+
+
+    2) Navigate to 'Home' tab in the Ribbon.
+
+
+    3) Within the "Home" tab, find and click on "Split Column" option. 
+        (NOTE: It may be under the "Transform" group)
+    
+
+    4) A dropdown menu will appear. Choose the appropriate option based on how you want to split the column:
+
+        * By Delimiter: If your data is separated by a specific character (comma, space, :, =, Custom, (, ), etc.).         (This comes to handy many many times)
+
+        * By Number of Characters: If you want to split the column into a specific number of characters.
+
+        * At Positions: If you want to specify exact positions to split the column.
+
+        * By Lowercase to Uppercase
+
+        * By Uppercase to Lowercase
+
+        * By Digit to Non-Digit             (this comes to handy)
+
+        * By Non-Digit to Digit             (this comes to handy)
+
+
+    5) U also have to choose the option like:
+
+        * "Split at":
+                        --> Left-most delimiter
+                        --> Right-most delimiter
+                        --> Each occurence of the delimiter
+
+
+    6) Finally, click on 'OK' button.
+
+
+Wallah!!

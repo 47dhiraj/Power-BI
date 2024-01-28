@@ -1,0 +1,24 @@
+
+Suppose u want to do a caclculation Something using 'Custom Formula' and store result in a New "Custom Column".
+
+
+# How to do create a custom column ??
+
+    1) First, u have to navigate to "Add Column" tab in the Ribbon.
+
+    2) U can see, "Custom Column" option.
+
+    3) A Custom Column 'Dialog box' will appear.
+
+    4) In 'New column name', write the name of new "Custom Column".
+
+    5) In 'Custom column formula' box, u should write the custom formula.
+        (NOTE: u can also choose 'Available Columns' while writing custom formula).
+
+    6) Now, u should see 'Tick icon' with "No Syntax error have been detected" option.
+        If u don't see it, ur formula won't work. something is wrong.
+
+    7) Finally, click on "OK" button.
+
+
+Wallah !!

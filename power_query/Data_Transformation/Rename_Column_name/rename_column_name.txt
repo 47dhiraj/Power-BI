@@ -1,0 +1,8 @@
+
+# How to rename column header/name ??
+
+    1) Simply, double click on the column name/header.
+
+    2) Now, type new name for the column.
+
+Wallah !!

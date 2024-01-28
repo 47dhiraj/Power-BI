@@ -1,0 +1,30 @@
+
+Sometimes u want to remove the rows. 
+
+
+# How to "Remove Rows" ??
+
+    
+    1) Navigate to "Home" tab in the Ribbon.
+
+    2) Click on "Remove Rows" icon.
+
+    3) A dropdow option will appear. 
+
+    4) U can choose any options from the below, like:
+
+        * Remove Top Rows
+        * Remove Bottom Rows
+        * Remove Blank Rows
+        * Remove Duplicates
+        * Remove Errors
+    
+    5) A dialgo box will appear.
+
+    6) Specify the "Number of rows" u want to select.
+
+    7) Finally, click on "OK" button. 
+
+
+Wallah !!
+

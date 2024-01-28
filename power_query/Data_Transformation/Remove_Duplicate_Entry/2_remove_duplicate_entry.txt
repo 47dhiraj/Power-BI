@@ -1,0 +1,28 @@
+
+# How to remove duplicate entry/record/rows ??
+
+
+    1) First, from the data, identify which column is functioning like Primary Key column (i.e unique) like in SQl.
+
+        (i.e identify that column whose value can never be repeated)
+
+    
+    2) Select the first column by clicking on it.
+
+
+    3) Press and Hold the "Shift" key.
+
+        --> Again, select last column by clicking on it.
+
+        U can see all data being selected.
+    
+
+    4) Horizontally Scroll back to that column on the basis of which u want to remove duplicate entry/rows/records.
+
+        --> 'Right click' on that 'column name/header' and choose "Remove Duplicates" from dropdown option.
+
+    
+        All the duplicates rows are being removed.
+
+
+Wallah !!

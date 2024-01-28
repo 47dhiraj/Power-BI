@@ -1,0 +1,18 @@
+
+
+SYNTAX: AND(Condition 1, Condition 2)
+
+
+EXAMPLE 1 :
+    
+    Commission Measure = 
+                            SUMX(
+                                Sales,
+                                IF(
+                                    AND(
+                                        Sales[Sales Channel] = "Organic",       
+                                        FORMAT(Sales[Date], "ddd") = "Sun"      
+                                    ),
+                                    Sales[Value] * 0.20
+                                )
+                            )

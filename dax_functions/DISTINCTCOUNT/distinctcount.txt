@@ -1,0 +1,12 @@
+
+The DISTINCTCOUNT function in DAX is used to count the number of distinct(unique) values in a column.
+
+
+
+SYNTAX: DISTINCTCOUNT(table[column]) 
+
+
+Example1:
+
+    Distinct Orders Count = DISTINCTCOUNT(Orders[Order ID])
+

@@ -1,0 +1,39 @@
+
+SWITCH function works like nested if.
+
+But it executes/operates in top down sequence/order.
+
+
+SYNTAX: 
+        SWITCH(
+
+            <expression>,         
+                                    
+
+            <value 1>, <result 1>,
+
+            <value 2>, <result 2>,
+
+            <value 3>, <result 3>,
+
+            <else>               
+
+        )
+
+
+EXAMPLE 1 :
+
+    Qtr Colmn = SWITCH(
+
+                    TRUE(),                                     
+
+                    MONTH('Calendar'[Date]) <= 3, "Q1",
+
+                    MONTH('Calendar'[Date]) <= 6, "Q2",
+
+                    MONTH('Calendar'[Date]) <= 9, "Q3",
+
+                    "Q4"                   
+
+                )
+

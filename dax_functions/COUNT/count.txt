@@ -1,0 +1,16 @@
+ 
+# The COUNT function in DAX is used to count the number of rows in a table or the number of values in a column, based on a specified condition.
+
+
+    SYNTAX: COUNT(table[column])
+
+
+    Example 1: 
+    
+        Orders Count = COUNT(Orders[Order ID])
+
+        Here, Order Count is the name of Measure.
+
+        COUNT(Orders[Order ID]) is the DAX formula.
+
+

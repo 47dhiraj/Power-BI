@@ -1,0 +1,44 @@
+
+# "New Group" or "New Data Group" is one of the best way to create Groups/Buckets.
+
+
+#  How to create a "New Group" ?
+
+    1) On the right side of the "Data" Pane, u can see "table".
+
+    2) Two ways to create a New Group:
+
+        1st way:
+
+            Inside 'table', right click on that 'column' which u want to group.
+            --> From dropdown option choose "New group" by clicking it.
+    
+
+        2nd way:
+
+            Single left click on that 'column' and on the Ribbon, inside 'Column tools' tab,
+            u can see 'Data Groups'.
+
+            --> Click on 'Data Groups' and choose 'New data groups' by clicking it.
+        
+
+    3) A "Group" dialog box will appear.
+
+        --> In 'Name', give the name of the group column.
+
+        --> In 'Group Type' it is good to choose 'List' rather than the 'Bin'.
+
+            Beacuse, List works on both text and numeric value,
+            But, Bin works only on numeric  value.
+
+        --> The 'Field' is ur selected column on basis of which u want to apply grouping.
+
+        --> Now, manually select all the values, which u want to create a single group.
+            And, repeat this process.
+
+        --> Rename all those created groups by double clicking.
+
+        --> Click on "OK" button.
+
+
+Wallah !!

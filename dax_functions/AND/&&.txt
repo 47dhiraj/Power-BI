@@ -1,0 +1,13 @@
+
+EXAMPLE 1 :
+    
+    Commission Measure = 
+                            SUMX(
+                                Sales,
+                                IF(
+                                    Sales[Sales Channel] = "Organic" &&         
+                                    FORMAT(Sales[Date], "ddd") = "Sun" &&      
+                                    1 = 1,                                      
+                                    Sales[Value] * 0.20
+                                )
+                            )

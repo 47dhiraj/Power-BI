@@ -1,0 +1,28 @@
+
+FILTER() function is used to filter tables or columns in a table based on a specified condition. 
+
+It allows you to create a new table or modify an existing table by applying a filter.
+
+
+SYNTAX: FILTER(Table, Condition)
+
+
+
+EXAMPLE 1 (Adding 'New Table'):
+
+
+    Filtered Sales Amount Table = FILTER(
+                                    Sales,                             
+                                    Sales[SalesAmount] >= 20           
+                                )
+
+
+
+EXAMPLE 2 (Adding 'New Table'):
+
+    Filtered Sales Date Table = FILTER(
+                                    VALUES(Sales[OrderDate]),           
+                                    [TotalSales] >= 10000              
+                                )             
+
+

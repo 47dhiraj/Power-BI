@@ -1,0 +1,26 @@
+
+# How to change data type of a column ??
+
+There may be multiple ways to do so.
+
+
+    # A simple way is :
+
+    1) Just locate the column which u want to change type.
+
+    2) There u can see 'ABC' icon on 'left side of Column name/header'.
+
+    3) Click on that 'ABC' small icon.
+
+    4) Choose/click on the Data Type u want that column to be.
+
+        eg: Decimal Number
+            Fixed Decimal Number        (yedi . or decimal sign pachadi fix number of digit chaiyeko cha vani)
+            Whole Number
+            Percentage
+            Date / Time
+            Text
+            True / False
+            Binary
+
+Wallah!!

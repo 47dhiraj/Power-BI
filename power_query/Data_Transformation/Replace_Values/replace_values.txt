@@ -1,0 +1,19 @@
+
+# How to "Replace Value / character" in Column with another value / character ??
+
+
+    1) Simply, Right click on that column name/header .
+
+    2) Choose "Replace Values..." option.
+
+    3) A 'Replace Values' dialog box will appear.
+
+    4) In "Value To Find" box, enter/write the value which u want to replace.
+
+    5) In "Replace With" box, enter/write the value which u want to repalce with. (i.e aba chaiyeko value)
+        (NOTE: u can leave blank, if u want to replace with nothing)
+
+    6) click on "OK" button.
+
+
+Wallah!!

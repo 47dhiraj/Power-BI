@@ -1,0 +1,53 @@
+
+U want to remove null/Empty values from a dataset ??
+
+
+# One way:
+
+# How to remove null/empty values from a column ??
+
+    1) Click on 'Dropdown' icon of Column name/header.
+
+    2) A dropdown options will appear.
+
+    3) Click on "Remove Empty" option.
+
+
+    Now, u can see null/Empty values being removed (i.e that rows are removed).
+
+    Wallah!!
+
+
+
+# Another way:
+
+# How to remove null/blank/empty value ??
+
+    1) Sort that column from where u want to remove null/blank/empty in either 'Sort Ascending' or 'Sort Descending'.
+
+        To sort the column, click on Dropdown on column name/header.
+        U will see options: 'Sort Ascending'
+                            'Sort Descending'
+        
+        Click on one option, the data will be sorted.
+
+
+    2) Navigate to Home tab in Ribbon.
+    
+        click on "Remove Rows" icon and can choose below option, so that null/blank/empty values gets removed.
+
+            * Remove Top Rows
+            * Remove Bottom Rows
+            * Remove alternate Rows  etc
+
+
+    3) A dialog box will appear. 
+        Give the no. of rows to remove.
+
+
+    4) Now, null/empty/blank value records/rows will be removed.
+
+
+    Wallah !!
+
+

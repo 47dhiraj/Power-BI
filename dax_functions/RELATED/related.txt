@@ -1,0 +1,23 @@
+
+Suppose two table have relationship.
+So, RELATED function helps to retrieves a value from another table(i.e one side relationship).
+
+
+
+SYNTAX: RELATED(related_table[column])
+
+
+
+EXAMPLE 1(Creating a Column): 
+    
+
+    Person Order Column = RELATED(Customers[Name]) 
+
+
+
+EXAMPLE 2(Adding new Measure):
+
+
+    Total Sales Measure = SUMX(Sales, RELATED(Products[Price]) * Sales[Quantity])
+
+

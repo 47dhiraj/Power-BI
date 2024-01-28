@@ -1,0 +1,29 @@
+
+SAMEPERIODLASTYEAR()
+
+    --> It accepts single columnar table with/having dates.
+
+
+
+SYNTAX: SAMEPERIODLASTYEAR(table<column>)
+
+
+
+EXAMPLE 1 : 
+
+    Last Year Sales =   CALCULATE(
+                            [Total Sales],
+                            SAMEPERIODLASTYEAR('Calendar[Date]')
+                        )
+
+
+
+EXAMPLE 2 (Alternative of Example 1):
+
+    NOTE: This also gives same result as of Example1.
+
+    Last Year Sales =   SUMX(
+                            SAMEPERIODLASTYEAR('Calendar'[Date]),
+                            [Total Sales]
+                        )
+

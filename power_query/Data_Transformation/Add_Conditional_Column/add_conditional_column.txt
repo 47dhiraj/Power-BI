@@ -1,0 +1,33 @@
+
+In Power Query Editor within Power BI, a "Conditional Column" is a feature that allows you to create a new column in your dataset based on specified conditions.
+
+
+It enables you to define logical rules or conditions that determine the values of the new column based on the existing data in other columns.
+
+
+# How to create a Conditional Column in Power Query Editor ?
+
+    Here are the steps:
+    
+    1) Open Power Query Editor.
+
+    2) Navigate to the "Add Column" tab.
+
+    3) Click on "Conditional Column" icon.
+
+    4) A "Add Conditional Column" dialog box will appear.
+
+        --> Give "New column name" (i.e this new column name should not match the existing column in table)
+        
+        --> Give "Column Name" (i.e the already existing column on basis of which u want to create new column) 
+
+        --> Give Condition matching "Value" (eg: Yes  (i.e jun value tyo column ko cell ma pahilai cha))
+
+        --> Give Condition matching "Output" (eg: 1 (i.e aba Yes vako thau ma 1 gara vanna khojeko))
+
+        --> Give Condition rejection "Else" (eg: 0 (i.e aba No vako thau ma 0 gara vanna khojeko))
+
+        --> Finally, click on "OK" button.
+
+
+Wallah !!

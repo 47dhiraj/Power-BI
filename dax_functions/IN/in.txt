@@ -1,0 +1,17 @@
+
+"IN" is a keyword used to check whether some specific value is included in a column or expression.
+
+
+SYNTAX: table[column] IN {Value1, Value2, ...}
+
+SYNTAX: Expression IN {Value1, Value2, ...}
+
+
+
+EXAMPLE 1 (Adding new Measure):
+
+    Australia Cont Sales Amount = CALCULATE([Total Amount], locations[Geo] IN {"Australia", "New Zeland"})
+
+        It only gives the total sales amount of "Australia" OR "New Zeland".
+    
+

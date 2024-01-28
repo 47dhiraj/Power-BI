@@ -1,0 +1,27 @@
+
+# IF Returns one value if a condition is true and another value if it's false.
+
+
+SYNTAX: IF (<condition>, <value_if_true>, <value_if_false>)
+
+
+
+EXAMPLE 1 : (Adding new Column)
+
+    Order Type Column = IF(Orders[Quantity] < 30, "Small Order", "Big Order") 
+
+
+
+EXAMPLE 2 : (New Measure Creation using Data Table Column)
+
+
+    Commission Measure = SUMX (
+                            Sales,
+                            IF(
+                                Sales[Sales Channel] = "Affiliate",         // yo Sales[Sales Channel] le multiple values dincha, so if conditon won't work. So, to make it work, we bound IF() with iterator function eg: SUMX().
+                                Sales[Value] * 0.1
+                            )
+                        ) 
+
+
+

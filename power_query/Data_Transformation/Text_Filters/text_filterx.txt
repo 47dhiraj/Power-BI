@@ -1,0 +1,33 @@
+
+Suppose u want to filter out/remove  Rows/records based on some Text in that column.
+
+
+# How to do Text Filtering ??
+
+    1) Click on 'Dropdown' icon on that Column Header.
+
+    2) Hover over "Text Filters" option.
+
+    3) U can see multiple dropdown options:
+
+        * Equals...
+        * Does Not Equal...
+        * Begins With...
+        * Does Not Begins With...
+        * Ends With...
+        * Does Not Ends With...
+        * Contains...
+        * Does Not contain...
+    
+
+    4) Suppose i choose "Does Not Contains" option.
+
+    5) A 'Filter Rows' dialog box will appear.
+
+    6) In the box, right side to "does not contain" dropdown, write that particular word 'which' u don't want to see further.
+
+    7) Click on "OK" button.
+
+
+Wallah !!
+

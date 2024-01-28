@@ -1,0 +1,16 @@
+
+Use First Row as Column name/header.
+
+
+# How to use first row as column haeder ??
+
+
+    1) At first, Navigate to "Transform" tab in Ribbon.
+
+    2) Click on "Use First Row as Headers" icon.
+
+    
+    Now, u can, see, first row is changed to Column name/header.
+
+
+Wallah !!

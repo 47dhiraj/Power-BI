@@ -1,0 +1,46 @@
+
+In initial u want to know, if there any Duplicates, null/Empty  or  Error in the data.
+
+
+So, First u have to view Column Quality.
+
+# How to view Column Quality ??
+
+        1) Click on 'View' tab in Ribbon.
+
+        2) U can see, 'Column quality' tick box.
+
+        3) Simply, 'tick' the 'column quality' option.
+
+            Now, u can clearly see, Percentages of:
+                                                    * Valid
+                                                    * Error
+                                                    * Empty
+
+        Wallah !!
+
+
+
+# NOTE: Blank value or 'Empty' lai pani null vanera bujcha power query editor le.
+
+# How to remove null/blank/empty value ??
+
+    1)  sort that column from where u want to remove null/blank/empty in either 'Sort Ascending' or 'Sort Descending'.
+
+    2) Now, click on "Remove Rows" icon and can choose any of the below:
+
+        * Remove Top Rows
+        * Remove Bottom Rows
+        * Remove alternate Rows  etc
+
+    3) A dialog box will appear. 
+    Give the no. of rows to remove.
+
+    4) Now, null/empty/blank value records/rows will be removed.
+
+
+    Wallah !!
+
+
+
+

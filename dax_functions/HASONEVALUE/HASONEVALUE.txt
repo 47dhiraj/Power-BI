@@ -1,0 +1,31 @@
+
+# HASONEVALUE:
+
+    --> checks if that Column has single/one distinct/unique value or not.
+
+
+SYNTAX: HASONEVALUE(table<Column>)
+
+
+EXAMPLE 1:
+
+    Hasonevalue in Month = HASONEVALUE('Calendar[Month]')
+
+
+
+
+EXAMPLE 2:
+
+    Monthly distinct TotalSales = IF(
+                                    HASONEVALUE('Calendar'[Month]),
+                                    [Total Sales]
+                                )
+
+
+
+
+
+
+
+
+

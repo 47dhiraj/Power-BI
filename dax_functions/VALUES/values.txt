@@ -1,0 +1,21 @@
+
+# NOTE: VALUES() function in DAX is equivalent to Remove Duplicates in Excel.
+
+
+VALUES() function is used to return a one-column table that contains the distinct/unique values from a column.
+
+
+
+SYNTAX: VALUES(<table>)
+
+SYNTAX: VALUES(<table>, <column>)
+
+SYNTAX: VALUES(<expression>)
+
+
+
+EXAMPLE 1 :
+
+    DistinctProducts = VALUES('Sales'[Product])
+
+

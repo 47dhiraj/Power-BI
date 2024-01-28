@@ -1,0 +1,41 @@
+
+CALCULATE is used when you want to control or change how a calculation is done based on specific conditions or applying some filters.
+
+
+
+SYNTAX:
+
+    Measure = CALCULATE(<expression>, <filter1>, <filter2>, ..)
+
+
+Updated Shorter SYNTAX:
+
+    Measure = [expression](<filter1>)
+
+
+
+
+EXAMPLE 1 : 
+
+    America Shipment = CALCULATE([Shipment Count], locations[Region]= "Americas")
+
+    Here,
+        Shipment Count is a Measure (i.e a Measure returns scalar/single value).
+        locations[Region] is a table column (returns multiple values)
+
+
+
+EXAMPLE 2 :
+
+    Affiliate Sales = CALCULATE([Total Sales], Sales[Channel] = "Affiliate")
+
+    Here,
+        Total Sales is a Measure which gives scalar/single value.
+
+
+
+
+
+
+
+
